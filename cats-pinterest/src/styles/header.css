@@ -1,0 +1,18 @@
+nav {
+  background-color: #03a9f4;
+  height: 5vh;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 1.7em;
+  list-style-type: none;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}

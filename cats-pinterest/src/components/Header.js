@@ -1,16 +1,16 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
     return (
       <nav>
         <ul>
-          <li>
-            <Link to="/">Все котики</Link>
+          <li activeclassname={"active"}>
+            <NavLink to="/">Все котики</NavLink>
           </li>
-          <li>
-            <Link to="/favorite-cats">Любимые котики</Link>
+          <li activeclassname={"active"}>
+            <NavLink to="/favorite-cats">Любимые котики</NavLink>
           </li>
         </ul>
       </nav>

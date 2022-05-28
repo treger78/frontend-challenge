@@ -1,18 +1,30 @@
 nav {
   background-color: #03a9f4;
-  height: 5vh;
-  padding: 1rem;
 }
 
 ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  line-height: 1.7em;
   list-style-type: none;
+  font-size: 1.1rem;
+}
+
+li {
+  height: 8.5vh;
+  line-height: 3em;
+  margin-left: 3rem;
+  width: 10rem;
+  text-align: center;
 }
 
 a {
-  color: whitesmoke;
+  color: gainsboro;
   text-decoration: none;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  background-color: #0383f4;
+  color: whitesmoke;
+  height: 8.5vh;
 }

@@ -5,9 +5,9 @@ import {
   Route,
 } from "react-router-dom";
 import Header from "./components/Header";
-import AllCats from './pages/AllCats';
+import AllCats from "./pages/AllCats";
 import FavoriteCats from "./pages/FavoriteCats";
-import './App.css'
+import "./App.css";
 
 class App extends React.Component {
   render() {

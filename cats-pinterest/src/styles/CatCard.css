@@ -1,0 +1,10 @@
+.catCard {
+  width: 13rem;
+  height: 10rem;
+  margin: 1rem;
+}
+
+.catCard img {
+  height: inherit;
+  width: inherit;
+}

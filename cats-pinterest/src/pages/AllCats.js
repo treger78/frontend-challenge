@@ -1,9 +1,34 @@
 import React from 'react';
+import CatCard from '../components/CatCard';
+import fetchCats from '../api/catApi';
 
 class AllCats extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      cats: []
+    };
+  }
+
+  componentDidMount() {
+    fetchCats().then((res) => {
+      this.setState({
+        cats: [...this.state.cats, ...res]
+      });
+    });
+  }
+
   render() {
+    const { cats } = this.state;
+
     return (
-      <div>Все котики</div>
+      <main>
+        {
+          cats.map(cat => (
+            <CatCard catImg={cat.url} />
+          ))
+        }
+      </main>
     );
   }
 }

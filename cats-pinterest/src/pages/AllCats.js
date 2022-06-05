@@ -25,7 +25,7 @@ class AllCats extends React.Component {
       <main>
         {
           cats.map(cat => (
-            <CatCard catImg={cat.url} />
+            <CatCard key={cat.id} catImg={cat.url} />
           ))
         }
       </main>

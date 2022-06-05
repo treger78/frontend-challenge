@@ -9,7 +9,6 @@ ul {
 }
 
 li {
-  height: 8.5vh;
   line-height: 3em;
   margin-left: 3rem;
   width: 10rem;
@@ -26,5 +25,4 @@ a {
   justify-content: center;
   background-color: #0383f4;
   color: whitesmoke;
-  height: 8.5vh;
 }
